@@ -338,9 +338,9 @@ func (f *Fetcher) makeOtherHeader(req *http.Request) (err error) {
 	accept := "application/json, text/javascript, */*; q=0.01"
 	origin := f.makeUrl("")
 	requestWith := "XMLHttpRequest"
-	agent := "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) "
+	agent := "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) "
 	agent += "AppleWebKit/537.36 (KHTML, like Gecko) "
-	agent += "Chrome/27.0.1453.116 Safari/537.36"
+	agent += "Chrome/79.0.3945.88 Safari/537.36"
 	if f.Header.Agent != "" {
 		agent = f.Header.Agent
 	}
